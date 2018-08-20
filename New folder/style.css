@@ -1,0 +1,208 @@
+body {
+    background-color: rgba(160, 160, 160, 0.644);
+}
+
+.posts {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px; 
+}
+
+.post {
+    background-color: rgba(255, 255, 255, 0.651);
+    height: 90px;
+    padding: 10px;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+.post span {
+    display: block;
+    font-size: 20px;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+small {
+    font-size: 13px;
+    font-family: 'Jua', sans-serif;
+}
+
+.pagination {
+    margin-left: 118px;
+    margin-right: 118px;
+}
+
+.margin {
+    margin-left: 118px;
+    margin-right: 118px;
+}
+
+
+.post h2 {
+    padding-top: 10px;
+}
+
+
+.mainContent span {
+    font-family: 'Maven Pro', sans-serif;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.mainContent .body p {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 20px;
+}
+
+.body {
+    background-color: rgba(255, 255, 255, 0.651);
+    min-height: 150px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.replies {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px; 
+}
+
+.reply {
+    background-color: rgba(255, 255, 255, 0.651);
+    min-height: 150px;
+    padding: 20px;
+    padding-top: 5px;
+    margin-top: 10px;
+
+}
+
+.reply form {
+    display: inline;
+    padding-left: 80%;
+}
+
+.reply p {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 20px;
+}
+
+.no-rep  span {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 18px;
+}
+
+label {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 20px;   
+}
+
+.form {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.651); 
+    min-height: 200px;
+}
+
+.generalContent {
+    background-color: rgba(255, 255, 255, 0.651); 
+    min-height: 100px;
+    padding: 20px;
+}
+
+.generalContent span, .generalContent a {
+    display: block;
+    text-align: center;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 20px;   
+}
+
+.generalContent p {
+    font-family: 'Maven Pro', sans-serif;   
+}
+
+.profile {
+    background-color: rgba(255, 255, 255, 0.651);
+    padding: 10px;
+    min-height: 300px;
+}
+
+.profile span {
+    font-family: 'Jua', sans-serif;
+    font-size: 24px;
+    display: block;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.profile td {
+    font-family: 'Jua', sans-serif;
+}
+
+.profile .actions a{
+    margin-right: 25px;
+}
+
+
+.generalContent .sent-message {
+    min-width: 60px; 
+    max-width: 1051px;
+    background-color: rgb(66, 255, 145);
+    padding: 5px;
+    margin-bottom: 5px;
+    word-wrap: break-word;
+}
+
+
+.generalContent .recived-message {
+    min-width: 60px; 
+    max-width: 1051px;
+    background-color: rgba(67, 70, 68, 0.849);
+    padding: 5px;
+    margin-bottom: 5px;
+    word-wrap: break-word;
+}
+
+.generalContent .sent-message p, .generalContent .recived-message p{
+    display: inline;
+    font-family:  'Jua', sans-serif;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.friends {
+    background-color: rgba(255, 255, 255, 0.651); 
+    min-height: 100px;
+    padding: 20px;
+}
+
+.friends .title {
+    font-family: 'Maven Pro', sans-serif; 
+    font-size: 20px;
+}
+
+.width {
+    display: inline;
+    width: 80%;
+    margin-right: 10px;
+}
+
+.friends {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+.friends .friend p, .friends .friend form{
+    display: inline;
+    margin-right: 20px;
+}
+
+.friends .friend p, .pending {
+    font-family:  'Jua', sans-serif;
+    font-size: 20px;
+}
+
+.alert {
+    padding: .75rem 7.375rem;
+}
